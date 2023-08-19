@@ -1,0 +1,8 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": ["main/**/*.ts"],
+    "out": "doc",
+    "compilerOptions": {
+        "strictNullChecks": false
+    }
+}

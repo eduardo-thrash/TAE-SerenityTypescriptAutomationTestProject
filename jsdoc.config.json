@@ -1,0 +1,27 @@
+{
+    "plugins": [
+        "node_modules/better-docs/typescript"
+    ],
+    "typescript": {
+        "moduleRoot": "main"
+    },
+    "recurseDepth": 10,
+    "source": {
+        "include": ["main"],
+        "includePattern": "\\.(jsx|js|ts|tsx)$",
+        "excludePattern": "(node_modules|docs)"
+    },
+    
+    "templates": {
+        "template": "node_modules/better-docs",
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "tags": {
+        "allowUnknownTags": ["true"]
+    },
+    "opts":{
+        "recurse": "true",
+        "destination": "./docs"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig",
+  "include": [
+    "features/**/*.ts",
+    "main/**/*.ts",
+    "main/**/**/*.ts",
+    "wdioMobile.conf.ts",
+    "wdioWeb.conf.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
