@@ -1,0 +1,22 @@
+export interface storeMsUserPayload{
+    id : number,    
+    locationId : number,
+    firstTime : number,
+    createdAt : string,
+    address : string,
+    fullAddressData : object,
+    defaultAvailableCredit : number,
+    idBillingProfile : object,
+    storeName : string,
+    creditContractAccepted : number,
+    megaRedStore : object,
+    municipalityId : object,
+    phone : string,
+    latitude : bigint,
+    longitude : bigint,
+    deletedAt : object,
+    storeStatusId : object,
+    nit : number,
+    cashOnDeliveryReference : string,
+    storeTypeId : number
+}

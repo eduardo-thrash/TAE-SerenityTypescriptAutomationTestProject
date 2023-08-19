@@ -1,0 +1,20 @@
+export const targetLabel = {
+    checkoutBillingInfoLabel : 'client name and document number billing info',
+    checkoutDeliveryAddressLabel : 'checkout delivery address info',
+    checkoutDeliveryIndicationsLabel : 'checkout delivery indications card',
+    checkoutHeaderTitleLabel : 'header title of checkout screen',
+    checkoutOrderTotalValueLabel : 'checkout order total value to pay',
+    checkoutPaymentMethodLabel : 'checkout payment method info',
+    orderSummaryAddressToDeliver : 'order summary address to deliver',
+    orderSummaryCancelButtonLabel : 'order summary button to cancel the order',
+    orderSummaryDeliveryDriverLabel : 'order summary pending driver assigment info by default',
+    orderSummaryHeaderTitleLabel : 'header title of order summary screen',
+    orderSummaryHelpButtonLabel : 'order summary button to request support help',
+    orderSummaryPaymentMethodLabel : 'order summary payment method info',
+    orderSummaryStatusConfirmedLabel : 'order summary status confirmed info',
+    orderSummarySuggestedDeliveryDateLabel : 'order summary suggested delivery date',
+    orderSummaryTotalValueLabel : 'order summary total value to pay',
+    sendOptionsSuggestedDeliveryDateLabel : 'checkout send options suggested delivery date',
+    sendOptionsTimeWindowLabel : 'checkout send options time window by default',
+    timeWindowHeaderTitleLabel: 'header title of time window screen'
+}

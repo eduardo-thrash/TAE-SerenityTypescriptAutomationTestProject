@@ -1,0 +1,22 @@
+export interface NewOrderTrackingResponse{
+    orderId: number,
+    name: string,
+    sku: string,
+    storeId: number,
+    warehouseId: number,
+    merchantId?: number,
+    storeReferenceId: number,
+    quantity: number,
+    originalQuantity: number,
+    pickedQuantity?: number,
+    quantityRouted?: number,
+    quantityDelivered?: number,
+    quantityDispatched?: number,
+    managerTotal: number,
+    isAlert: number,
+    prefix: string,
+    thumb: string,
+    medium: string,
+    regular: string,
+    isIncompleted: number
+}
